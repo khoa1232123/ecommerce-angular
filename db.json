@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "id": "e19d",
+      "name": "khoi",
+      "email": "khoi@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "f543",
+      "name": "khoi2",
+      "email": "khoi2@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fc8d",
+      "name": "khoi3",
+      "email": "khoi3@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "00e3",
+      "email": "khoa",
+      "username": "khoa@gmail.com",
+      "password": "1234"
+    }
+  ]
+}

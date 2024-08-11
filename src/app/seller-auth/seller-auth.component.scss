@@ -1,0 +1,26 @@
+.seller-auth {
+  text-align: center;
+  .sign-up {
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .common-form {
+    @apply flex justify-center items-center flex-col gap-4;
+    width: 500px;
+  }
+
+  .form-input {
+    width: 100%;
+    @apply px-4 py-2;
+  }
+
+  .form-button {
+    @apply px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-md w-full mb-4;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.nav {
+    @apply flex justify-between items-center h-12 px-4;
+
+    &__logo {
+        @apply text-blue-500 font-bold text-4xl;
+    }
+
+    &__search {
+        @apply w-full h-10 max-w-sm border rounded-md shadow-sm flex;
+
+        input {
+            @apply flex-1 px-4 appearance-none w-full bg-transparent border-none text-gray-700 placeholder-gray-500 text-sm;
+        }
+
+        button {
+            @apply px-4 bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm;
+        }
+    }
+}
